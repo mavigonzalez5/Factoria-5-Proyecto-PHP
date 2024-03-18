@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins:wght@300&family=Protest+Riot&family=Protest+Strike&display=swap');
+
+header{
+    height: 20vh;
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: black;
+    margin-top: 80px;
+
+}
+#logo{
+    width:750px;
+    margin-top: 130px;
+}
+
+h3{
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(42, 41, 41);
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+body{
+    margin: 0px;
+    background-image: url(images/purple.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0px;
+    color: white;;
+}
+
+#foto-personal{
+    margin-bottom: 13px;
+    display: flex;
+}
+
+.divFoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.tarjeta{
+    font-family: 'Poppins', sans-serif;
+    border: 3px dotted rgb(60, 219, 211);
+    width: 250px;
+    background-color: rgb(176, 67, 165);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    color: black;
+    align-items: start;
+    flex-direction: column;
+}
+
+p{
+    margin-top:-10px;
+}
+
+.nuevo-warrior{
+    background: rgb(60, 219, 211);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px 10px 10px 100px;
+    border-radius: 20px;
+    border-color: rgb(165, 30, 165);
+    width: 150px;
+    height: 50px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0px;
+    margin-top: 80px;
+ 
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-bottom: 100px;
+}
+
+.formulario{
+    background-color: rgb(184, 62, 184);
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border: 2px dotted;
+    border-color: rgb(60, 219, 211);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+input{
+    background-color: rgb(197, 123, 197);
+    border-radius: 10px;
+}
+
+button{
+    background-color: rgb(60, 219, 211);
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+select{
+    background-color: rgb(197, 123, 197);
+    border-radius: 10px;
+}
+
+@media (max-width: 360px ) {
+    .tarjetas, .container, .nuevo-warrior, #logo{
+        flex-direction: column;
+    }
+}
